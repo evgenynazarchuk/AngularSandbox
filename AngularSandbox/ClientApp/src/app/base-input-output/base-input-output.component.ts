@@ -2,8 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-base-input-output',
-  templateUrl: './base-input-output.component.html',
-  styleUrls: ['./base-input-output.component.css']
+  templateUrl: './base-input-output.component.html'
 })
 export class BaseInputOutputComponent implements OnInit {
 
