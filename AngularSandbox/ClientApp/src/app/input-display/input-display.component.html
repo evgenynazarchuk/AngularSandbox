@@ -1,5 +1,4 @@
 <app-input-typer
-                 (messageText)="defaultMessageText"
-                 (eventChangeMessageText)="onChangeMessageText($event)"
+                 [(messageText)]="defaultMessageText"
                  ></app-input-typer>
 <p>Message: {{defaultMessageText}}</p>

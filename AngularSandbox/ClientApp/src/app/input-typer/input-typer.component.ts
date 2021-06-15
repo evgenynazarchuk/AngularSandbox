@@ -10,11 +10,11 @@ export class InputTyperComponent {
   messageText: string = ""
 
   @Output()
-  eventChangeMessageText = new EventEmitter<string>()
+  messageTextChange = new EventEmitter<string>()
 
   onChangeMessageText(message: string) {
     this.messageText = message
-    this.eventChangeMessageText.emit(message)
+    this.messageTextChange.emit(message)
   }
 
 }
